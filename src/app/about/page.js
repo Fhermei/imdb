@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='max-w-6x1 mx-auto space-y-4'>
+    <div className='max-w-6x1 mx-auto space-y-4 p-4'>
       <h1 className='text-2xl font-medium text-amber-600'>About</h1>
       <p>
       IMDb is the world's most popular and authoritative source for information on mov

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import Providers from "./Providers";
 
 const geistSans = Geist({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           <Header />
 
           {/* ✅ Navbar (Add Navbar Component Here) */}
+          <Navbar />
 
           {/* ✅ SearchBox (Add SearchBox Component Here) */}
 
